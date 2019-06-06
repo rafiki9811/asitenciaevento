@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="close()">
+        <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      {{event.nombre}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item *ngFor="let user of event_asistentes"> 
+      <ion-avatar slot="start">
+          <img src="{{user.foto}}">
+        </ion-avatar>
+        <ion-label>{{user.nombre}}</ion-label>
+        <ion-icon style="color: green" slot="end" name="checkmark-circle"></ion-icon>
+  </ion-item>
+  
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" (click)="test()">
+        <ion-fab-button>
+          <ion-icon name="camera"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+
+</ion-content>

@@ -1,0 +1,27 @@
+export const asist  = [ 
+    {
+        qr:"qrninja",
+        nombre:"Ninja",
+        foto:"assets/img/ninja.jpg"
+    },
+    {
+        qr:"qrlol",
+        nombre:"Lolito",
+        foto:"assets/img/lolito.jpg"
+    },
+    {
+        qr:"qrwill",
+        nombre:"WillyRex",
+        foto:"assets/img/guili.jpg"
+    },
+    {
+        qr:"qrtfue",
+        nombre:"TFue",
+        foto:"assets/img/tfue.jpg"
+    },
+    {
+        qr:"qrrub",
+        nombre:"Rubius",
+        foto:"assets/img/rubiuh.jpg"
+    }
+]

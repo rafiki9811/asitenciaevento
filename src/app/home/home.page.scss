@@ -1,0 +1,37 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+
+ion-item{
+  --background: rgb(255,87,51);
+  margin-bottom: 15px;
+}
+
+ion-content{
+  --background:#fff;
+}
+
+ion-list{
+  --background:black;
+}
+
+.galeria{
+ 
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    
+}
+
+ion-card{
+  background: rgba(241,231,103,1);
+  background: -moz-linear-gradient(left, rgba(241,231,103,1) 4%, rgba(246,211,89,1) 32%, rgba(254,182,69,1) 74%, rgba(254,182,69,1) 88%);
+  background: -webkit-gradient(left top, right top, color-stop(4%, rgba(241,231,103,1)), color-stop(32%, rgba(246,211,89,1)), color-stop(74%, rgba(254,182,69,1)), color-stop(88%, rgba(254,182,69,1)));
+  background: -webkit-linear-gradient(left, rgba(241,231,103,1) 4%, rgba(246,211,89,1) 32%, rgba(254,182,69,1) 74%, rgba(254,182,69,1) 88%);
+  background: -o-linear-gradient(left, rgba(241,231,103,1) 4%, rgba(246,211,89,1) 32%, rgba(254,182,69,1) 74%, rgba(254,182,69,1) 88%);
+  background: -ms-linear-gradient(left, rgba(241,231,103,1) 4%, rgba(246,211,89,1) 32%, rgba(254,182,69,1) 74%, rgba(254,182,69,1) 88%);
+  background: linear-gradient(to right, rgba(241,231,103,1) 4%, rgba(246,211,89,1) 32%, rgba(254,182,69,1) 74%, rgba(254,182,69,1) 88%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}

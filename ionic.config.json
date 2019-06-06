@@ -1,0 +1,7 @@
+{
+  "name": "asitenciaevento",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
